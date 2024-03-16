@@ -5,6 +5,6 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://srinivas-siripurapu.github.io',
+	site: 'https://openresearch.co.in',
 	integrations: [mdx(), sitemap()],
 });
