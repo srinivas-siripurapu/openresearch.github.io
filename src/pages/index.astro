@@ -1,0 +1,28 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Open Research!</h1>
+			<p align="justify">
+				Welcome to OpenResearch, a digital sanctuary dedicated to the open exploration of scientific 
+				inquiry and knowledge sharing. Here, we bridge the gap between curiosity and discovery, 
+				offering unrestricted access to a wealth of research materials that span diverse fields and topics. 
+				Whether you're delving into detailed simulations or sifting through the latest publications, 
+				our platform is designed to empower and enlighten.
+				Join us in our journey to illuminate the mysteries of the universe, one open resource at a time.
+			</p>	
+		</main>
+		<Footer />
+	</body>
+</html>
